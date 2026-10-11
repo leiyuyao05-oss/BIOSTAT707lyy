@@ -1,4 +1,4 @@
-# ICU data analysis checkpoint1
+# ICU data analysis checkpoint2
 This checkpoint analyzes PhysioNet 2012 ICU dataset, focusing on developing and evaluating machine learning models to predict in-hospital mortality among intensive care unit (ICU) patients using the PhysioNet/CinC Challenge 2012 dataset.
 
 The analysis uses the Set A patient records and corresponding outcome information. Patient measurements recorded during the first 48 hours of the ICU stay are used to construct predictors. The primary objective is to compare the discrimination performance of statistical and machine learning models with established clinical severity scores.
