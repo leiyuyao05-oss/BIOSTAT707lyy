@@ -72,7 +72,7 @@ The current five-fold cross-validation results are summarized below.
 - output/
   - checkpoint2.html
   - cp2_oof_predictions.csv
-  - cp2_final_model.pkl
+  - cp2_final_model.joblib
 - data/
   - Outcomes-a.txt
   - set-a/
