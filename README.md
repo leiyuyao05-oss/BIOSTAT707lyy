@@ -1,12 +1,17 @@
 # ICU data analysis checkpoint3
-This checkpoint analyzes PhysioNet 2012 ICU dataset, focusing on test sets and assessment.
+This checkpoint analyzes PhysioNet 2012 ICU dataset, focusing on test sets and assessment. More details on the Markdown of checkpoint3.html
 
 ## Structure
 - checkpoint3.ipynb
 - output/
 - output2/
+  - cp2_final_model.joblib
 - data/
 - test/
+  - set-b/
+  - set-c/
+  - Outcomes-b.txt
+  - Outcomes-c.txt
 
 ## How to run
 pixi run --locked checkpoint3
