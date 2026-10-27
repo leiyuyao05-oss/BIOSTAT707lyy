@@ -4,7 +4,7 @@ channels = ["conda-forge"]
 platforms = ["linux-64", "osx-arm64", "osx-64", "win-64"]
 
 [dependencies]
-python = "3.12.*"
+python = "3.14.*"
 jupyterlab = ">=4"
 nbconvert = "*"
 ipykernel = "*"
@@ -19,7 +19,11 @@ statsmodels = "*"
 scipy = "*"
 r-base = "4.5.*"
 "r-data.table" = "*"
+scikit-learn = ">=1.9.1,<2"
+joblib = ">=1.6.0,<2"
 
 [tasks]
 checkpoint1 = "jupyter nbconvert --to html --execute checkpoint1.ipynb --output-dir output --ExecutePreprocessor.timeout=1800"
+checkpoint2 = "jupyter nbconvert --to html --execute checkpoint2.ipynb --output-dir output --ExecutePreprocessor.timeout=1800"
+checkpoint3 = "jupyter nbconvert --to html --execute checkpoint3.ipynb --output-dir output --ExecutePreprocessor.timeout=1800"
 lab = "jupyter lab"
