@@ -256,5 +256,37 @@ However, predictive performance alone is insufficient to establish clinical read
 Overall, this checkpoint provides an external evaluation of the previously developed mortality prediction model and identifies important considerations for future validation and clinical application.
 This checkpoint analyzes PhysioNet 2012 ICU dataset, focusing on test sets and assessment. More details on the Markdown of checkpoint3.html
 
+## 11. AI Statement
 
+I used ChatGPT as a supplementary tool during the development, analysis, and documentation of this project in the following ways:
 
+1. Code Development and Debugging
+  
+  - Assisted in drafting and reviewing Python code for data preprocessing, feature construction, aligning predictors, and checking data consistency.
+  - Helped identify potential coding errors, resolve implementation issues, and improve the organization and reproducibility of the analysis workflow.
+
+2. Statistical Modeling
+  
+  - Provided guidance on implementing and understanding LASSO logistic regression, including its application to the test sets.
+  - Assisted with explanations of cross-validation and the use of AUROC, sensitivity, and specificity to compare predictive performance.
+
+3. Evaluation and Interpretation
+  
+  - Helped organize cross-validation results and explain model performance metrics in the code.
+  - Assisted in understanding discrimination plots and calibration plots, including identifying limitations and potential issues that required further investigation.
+
+4. Documentation and Scientific Writing
+  
+  - Helped improve the clarity and organization of the written report.
+  - Assisted in explaining methodological decisions and drafting descriptions of the modeling procedures and results.
+
+5. Advantages and Limitations of AI Use
+
+   One major advantage of using AI was that it improved the efficiency of coding, debugging, and documentation. It helped me resolve implementation issues more quickly, explore alternative approaches, and better understand statistical concepts and model evaluation methods. However, AI-generated suggestions were not always directly applicable to the specific dataset, analytical objectives, or assignment requirements. Some explanations and coding suggestions required further verification and modification. In particular, AI-generated interpretations of model performance and statistical results could not be accepted without considering the underlying data, modeling assumptions, and context. Therefore, AI was useful but could not replace independent statistical reasoning and critical evaluation.
+
+6. Impact on Workload and Understanding
+
+   Using AI allowed me to take on a broader range of tasks within the available project time, particularly in data preprocessing, model implementation, performance evaluation, and scientific reporting. Rather than reducing the analytical work itself, it helped make the workflow more efficient and enabled me to investigate additional aspects of the analysis. Importantly, working with AI also encouraged me to examine why particular methods were used and how their results should be interpreted. For example, through discussions of cross-validation, LASSO logistic regression, discrimination, and calibration, I developed a better understanding of both the practical implementation and the limitations of these techniques. At the same time, evaluating and correcting AI-generated suggestions required me to independently assess whether the proposed methods and interpretations were statistically appropriate. This process reinforced my understanding of the analytical techniques and the results rather than simply providing ready-made answers.
+
+I reviewed and tested all suggested code, verified the outputs independently, and made the final decisions regarding data processing, predictors, validation procedures, and interpretation. All results were checked against the assignment requirements and the data. I ensured that I understood the code and analysis presented, and I take full responsibility for all submitted work.
+(This is a revised version of the original AI statement in the outcome HTML, updated to address the additional requirements regarding the pluses and minuses of AI use and its impact on the checkpoint.)
